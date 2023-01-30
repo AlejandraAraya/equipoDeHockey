@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+header figure{
+    background: url('./imagenes/design1_image1.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 6rem;
+}
+
+.logo {
+    position: absolute;
+    top: 300px;
+    right: 10rem;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.logo img {
+    width: 25rem;
+}
+
+nav {
+    display: inline-block;
+    padding-right: 15rem;
+    padding-top: 12rem;
+    width: 30%;
+    vertical-align: top;
+    transform: translate(90px);
+}
+
+main {
+    vertical-align: top;
+    display: inline-block;
+    width: 69%;
+    padding-top: 12rem;
+}
+
+nav a {
+    display: block;
+    height: 8rem;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+    text-decoration: none;
+
+}
+
+.banner {
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2rem;
+    
+}
+
+section p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+
+
+
+
+
