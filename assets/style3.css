@@ -61,9 +61,8 @@ nav a {
     color: black;
     text-align: center;
     position: absolute;
-    top: 600px;
+    top: 50rem;
     left: 35%;
-    transform: translateY(250px);
 }
 
 h2 {
@@ -90,20 +89,125 @@ section {
 main {
     display: inline-block;
     vertical-align: top;
-    margin-top: 80px;
+    margin-top: 25rem;
     width: 65%;
-    transform: translateX(5%) translateY(400px);
+    min-height: 350px;
 }
 
 .logo {
+    padding: 1rem 2rem;
     position: relative;
     display: inline-block;
     top: 200px;
     width: 30%;
     height: auto;
-    transform: translateX(50px) translateY(50px);
 }
 
 .logo img {
     width: 100%;
+}
+
+.imagen {
+    width: 30%;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+}
+
+.imagen img{
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.middle-info {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding: 50px;
+    border-spacing: 24px;       
+}
+
+table th, table td{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.information p span {
+    font-weight: 700;   
+}
+
+.information p {
+    padding: 10px;
+    font-weight: 400;
+}
+
+.espacio {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.info-contact {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.middle-info section h2 {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.middle-info section p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.middle-info section ol, ul, li, span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.middle-info section ol li span {
+    font-weight: 700;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+.lista-separada li, h2 {
+    margin-bottom: 40px;
+}
+
+.lista-unida li {
+    margin: 0px;
+}
+
+.central {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.central h2 {
+    margin-bottom: 0; 
+}
+
+.sangria {
+    text-indent: 80px;
+}
+
+.correr {
+    padding-left: 120px;
+    padding-bottom: 100px;
 }
